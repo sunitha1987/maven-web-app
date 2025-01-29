@@ -27,7 +27,22 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.1</version> <!-- Updated version -->
       </plugin>
+
+      <!-- SonarQube plugin -->
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.9.1.2184</version> <!-- Specify the version you want -->
+      </plugin>
     </plugins>
   </build>
+
+  <properties>
+    <!-- SonarQube server details -->
+    <sonar.host.url>http://your.sonarqube.server.url</sonar.host.url> <!-- Change to your SonarQube server URL -->
+    <sonar.login>your-sonar-token</sonar.login> <!-- Add your SonarQube authentication token -->
+  </properties>
+
 </project>
+
 
