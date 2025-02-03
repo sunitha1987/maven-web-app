@@ -39,8 +39,8 @@
 
   <properties>
     <!-- SonarQube server details -->
-    <sonar.host.url>http://your.sonarqube.server.url</sonar.host.url> <!-- Change to your SonarQube server URL -->
-    <sonar.login>your-sonar-token</sonar.login> <!-- Add your SonarQube authentication token -->
+    <sonar.host.url>http://13.201.15.136:9000/ <!-- Change to your SonarQube server URL -->
+    <sonar.login>0e8d63a39aaeead07f3c6634ad962ed28c953550</sonar.login> <!-- Add your SonarQube authentication token -->
   </properties>
 
 </project>
